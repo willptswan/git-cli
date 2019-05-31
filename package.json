@@ -1,0 +1,17 @@
+{
+  "name": "git-cli",
+  "version": "1.0.0",
+  "description": "CLI to help with managing multiple GitHub accounts",
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Will Swan",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "data-store": "^3.1.0",
+    "prompt-async": "^0.9.9"
+  }
+}
